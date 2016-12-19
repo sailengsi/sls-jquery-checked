@@ -1,0 +1,10 @@
+ Listening on http://127.0.0.1:8080
+127.0.0.1 - GET / HTTP/1.1 200 1417 - 17.707 ms
+127.0.0.1 - GET /favicon.ico HTTP/1.1 404 24 - 8.929 ms
+127.0.0.1 - GET / HTTP/1.1 304 - - 1.794 ms
+127.0.0.1 - GET /demo/default.html HTTP/1.1 200 8308 - 5.914 ms
+127.0.0.1 - GET /static/js/jquery.sls-checked.js HTTP/1.1 200 2323 - 2.037 ms
+127.0.0.1 - GET /demo/check-use.html HTTP/1.1 200 6161 - 2.675 ms
+127.0.0.1 - GET /static/js/jquery.sls-checked.js HTTP/1.1 304 - - 1.923 ms
+127.0.0.1 - GET /demo/check-use.html HTTP/1.1 304 - - 4.643 ms
+127.0.0.1 - GET /static/js/jquery.sls-checked.js HTTP/1.1 304 - - 0.655 ms

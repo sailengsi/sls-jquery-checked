@@ -1,0 +1,18 @@
+{
+  "name": "sls-jquery-checked",
+  "version": "1.2.0",
+  "description": "查看在线demo：[https://demo.sailengsi.com/sls-jquery-checked/src/release/](https://demo.sailengsi.com/sls-jquery-checked/src/release/ \"在线演示\")",
+  "main": "./src/release/static/js/jquery.sls-checked.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sailengsi/sls-jquery-checked.git"
+  },
+  "author": "赛冷思",
+  "license": "ISC"
+}

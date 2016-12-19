@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <title>SlsChecked-jQuery全选全不选插件的简单使用</title>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="red-translucent" />
+<meta name="apple-mobile-web-app-title" content="" /> 
+<meta content="telephone=no" name="format-detection" />
+<meta content="email=no" name="format-detection" />
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+        
+    
+    <link rel="stylesheet" href="https://www.sailengsi.com/Public/common/other/bs/css/bootstrap.min.css" />
+    <style>
+            th{
+                width: 100px;
+            }
+            .active{
+                background: red;
+            }
+        </style>
+</head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="well bg-info checked-container">
+                        <div class="btn btn-default btn-checks">全选/全不选</div>
+                        <div class="btn btn-default btn-reverse">反选</div>
+                        <table class=''>
+                            <thead>
+                                <tr>
+                                    <th><input class='checks' type="checkbox"></th>
+                                    <th>value</th><th>id</th><th>name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class='check' value='1-1' type="checkbox"></td>
+                                    <td>1-1</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input class='check' value='1-2' type="checkbox"></td>
+                                    <td>1-2</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="well bg-info checked-container">
+                        <div class="btn btn-default btn-checks">全选/全不选</div>
+                        <div class="btn btn-default btn-reverse">反选</div>
+                        <table class=''>
+                            <thead>
+                                <tr>
+                                    <th><input class='checks' type="checkbox"></th>
+                                    <th>value</th><th>id</th><th>name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input checked class='check' value='2-1' type="checkbox"></td>
+                                    <td>2-1</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input class='check' value='2-2' type="checkbox"></td>
+                                    <td>2-2</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='2-3' type="checkbox"></td>
+                                    <td>2-3</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="well bg-info checked-container">
+                        <div class="btn btn-default btn-checks">全选/全不选</div>
+                        <div class="btn btn-default btn-reverse">反选</div>
+                        <table class=''>
+                            <thead>
+                                <tr>
+                                    <th><input class='checks' type="checkbox"></th>
+                                    <th>value</th> <th>id</th><th>name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input checked class='check' value='3-1' type="checkbox"></td>
+                                    <td>3-1</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input class='check' value='3-2' type="checkbox"></td>
+                                    <td>3-2</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='3-3' type="checkbox"></td>
+                                    <td>3-3</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='3-4' type="checkbox"></td>
+                                    <td>3-4</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                    <div class="well bg-info checked-container">
+                        <div class="btn btn-default btn-checks">全选/全不选</div>
+                        <div class="btn btn-default btn-reverse">反选</div>
+                        <table class=''>
+                            <thead>
+                                <tr>
+                                    <th><input class='checks' type="checkbox"></th>
+                                    <th>value</th> <th>id</th><th>name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input checked class='check' value='4-1' type="checkbox"></td>
+                                    <td>4-1</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='4-2' type="checkbox"></td>
+                                    <td>4-2</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='4-3' type="checkbox"></td>
+                                    <td>4-3</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='4-4' type="checkbox"></td>
+                                    <td>4-4</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                                <tr>
+                                    <td><input checked class='check' value='4-4' type="checkbox"></td>
+                                    <td>4-4</td><td>1</td><td>sailengsi.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<script src="https://www.sailengsi.com/Public/common/other/jq/jquery.min.js"></script>
+<script src="../static/js/jquery.sls-checked.js"></script>
+<script>
+            $(".checked-container").checked({
+                allCheckbox:'.checks',
+                oneCheckbox:'.check',
+
+                btnChecks:'.btn-checks',
+                btnReverse:'.btn-reverse'
+            });
+        </script>
+</body>
+</html>

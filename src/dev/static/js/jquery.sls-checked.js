@@ -1,6 +1,12 @@
-(function(win, J, undefined) {
-    //检测是否引入jquery或者zepto
-    var $ = J || Z || undefined;
+(function(field, factory, context) {
+    if (typeof exports === 'object') {
+        module.exports = factory(require('jquery'));
+    } else if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else {
+        factory(context.jQuery);
+    }
+})("SlsModal", function($) {
     if (!$) {
         console.error('此插件依赖于jQuery或者Zepto。');
     } else {
@@ -203,4 +209,4 @@
             }
         });
     }
-})(window, window['jQuery'] || null, undefined);
+}, this);
