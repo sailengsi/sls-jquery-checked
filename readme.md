@@ -1,6 +1,6 @@
-查看在线demo：[https://demo.sailengsi.com/sls-jquery-checked/release/](https://demo.sailengsi.com/sls-jquery-checked/release/ "在线演示")
+查看在线demo：[https://demo.sailengsi.com/sls-jquery-checked/src/release/](https://demo.sailengsi.com/sls-jquery-checked/src/release/ "在线演示")
 
-查看在线文档：[https://doc.sailengsi.com/sls-jquery-checked-doc/](https://doc.sailengsi.com/sls-jquery-checked-doc/ "查看在线文档")
+查看在线文档：[https://demo.sailengsi.com/sls-jquery-checked/doc/](https://demo.sailengsi.com/sls-jquery-checked/doc/ "查看在线文档")
 
 项目采用fis编写，fis官网地址：[http://fis.baidu.com/](http://fis.baidu.com/ "fis文档")   
 所以你需要按照以下步骤才能运行此项目
